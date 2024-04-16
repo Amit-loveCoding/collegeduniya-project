@@ -1,0 +1,70 @@
+.external-container {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: linear-gradient(to right, #2193b0, #6dd5ed);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2; 
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  border: none;
+  outline: none;
+  border-radius: 50%; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+  background-color: #fff; 
+  transition: all 0.3s ease-in-out; 
+  cursor: pointer; 
+}
+
+
+.icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
+
+
+.enter-college {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.enter-college input[type="text"] {
+  margin-left: 10px;
+  width: 45%;
+  border: none;
+  outline: none;
+  outline-color: lightcoral;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.heading {
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 200px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
